@@ -20,6 +20,7 @@ class_num = 2
 avg_salary = 1000000
 message = "软工%s班的同学，毕业平均工资：%s" % (class_num, avg_salary)
 print(message)
+print("软工%s班的同学，毕业平均工资：%s" % (class_num, avg_salary))
 
 name4 = "传智播客"
 set_up_year = 2006
