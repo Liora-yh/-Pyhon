@@ -6,6 +6,10 @@ print(type(num_str), num_str)
 num = int("11")
 print(type(num), num)
 
+# 整数转换成浮点数
+float_num = float(11)
+print(type(float_num), float_num)
+
 # 错误示例，想要将字符串转换成数字，必须要求字符串内的内容都为数字
 num2 = int("罗嘉意")
 print(type(num2), num2)
