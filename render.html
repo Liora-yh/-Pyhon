@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <title>Awesome-pyecharts</title>
                 <script type="text/javascript" src="https://assets.pyecharts.org/assets/v6/echarts.min.js"></script>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/v6/maps/china.js"></script>
 
     
 </head>
 <body >
-    <div id="4ddb38f5301e47779b4160a454a9e815" class="chart-container" style="width:900px; height:500px; "></div>
+    <div id="f0dc148054bb40d1b849a3007b8813c4" class="chart-container" style="width:900px; height:500px; "></div>
     <script>
-        var chart_4ddb38f5301e47779b4160a454a9e815 = echarts.init(
-            document.getElementById('4ddb38f5301e47779b4160a454a9e815'), 'white', {renderer: 'canvas', locale: 'ZH'});
-        var option_4ddb38f5301e47779b4160a454a9e815 = {
+        var chart_f0dc148054bb40d1b849a3007b8813c4 = echarts.init(
+            document.getElementById('f0dc148054bb40d1b849a3007b8813c4'), 'white', {renderer: 'canvas', locale: 'ZH'});
+        var option_f0dc148054bb40d1b849a3007b8813c4 = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -26,125 +27,69 @@
     },
     "series": [
         {
-            "type": "line",
-            "name": "\u786e\u8bca\u4eba\u6570",
-            "connectNulls": false,
-            "xAxisIndex": 0,
-            "symbolSize": 4,
-            "showSymbol": true,
-            "smooth": false,
-            "clip": true,
-            "step": false,
-            "stackStrategy": "samesign",
-            "data": [
-                [
-                    "01.13",
-                    "41"
-                ],
-                [
-                    "01.14",
-                    "41"
-                ],
-                [
-                    "01.15",
-                    "41"
-                ],
-                [
-                    "01.16",
-                    "45"
-                ],
-                [
-                    "01.17",
-                    "62"
-                ],
-                [
-                    "01.18",
-                    "198"
-                ],
-                [
-                    "01.19",
-                    "275"
-                ],
-                [
-                    "01.20",
-                    "291"
-                ],
-                [
-                    "01.21",
-                    "440"
-                ],
-                [
-                    "01.22",
-                    "571"
-                ],
-                [
-                    "01.23",
-                    "830"
-                ],
-                [
-                    "01.24",
-                    "1287"
-                ],
-                [
-                    "01.25",
-                    "1975"
-                ],
-                [
-                    "01.26",
-                    "2744"
-                ],
-                [
-                    "01.27",
-                    "4515"
-                ],
-                [
-                    "01.28",
-                    "5974"
-                ],
-                [
-                    "01.29",
-                    "7711"
-                ],
-                [
-                    "01.30",
-                    "9692"
-                ],
-                [
-                    "01.31",
-                    "11791"
-                ],
-                [
-                    "02.01",
-                    "14380"
-                ],
-                [
-                    "02.02",
-                    "17205"
-                ]
-            ],
-            "hoverAnimation": true,
+            "type": "map",
+            "name": "\u5730\u56fe",
             "label": {
-                "show": false,
+                "show": true,
                 "margin": 8,
                 "richInheritPlainLabel": true,
                 "valueAnimation": false
             },
-            "logBase": 10,
-            "seriesLayoutBy": "column",
-            "lineStyle": {
-                "show": false
-            },
-            "areaStyle": {
-                "opacity": 0
-            },
+            "map": "china",
+            "data": [
+                {
+                    "name": "\u5317\u4eac\u5e02",
+                    "value": 99
+                },
+                {
+                    "name": "\u91cd\u5e86\u5e02",
+                    "value": 199
+                },
+                {
+                    "name": "\u4e0a\u6d77\u5e02",
+                    "value": 299
+                },
+                {
+                    "name": "\u6e56\u5357\u7701",
+                    "value": 9
+                },
+                {
+                    "name": "\u53f0\u6e7e\u7701",
+                    "value": 199
+                },
+                {
+                    "name": "\u5b89\u5fbd\u5e02",
+                    "value": 499
+                },
+                {
+                    "name": "\u5e7f\u4e1c\u7701",
+                    "value": 399
+                },
+                {
+                    "name": "\u6e56\u5317\u7701",
+                    "value": 599
+                }
+            ],
+            "roam": true,
+            "aspectScale": 0.75,
+            "nameProperty": "name",
+            "selectedMode": false,
+            "zoom": 1,
             "zlevel": 0,
-            "z": 0
+            "z": 2,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "mapValueCalculation": "sum",
+            "showLegendSymbol": true,
+            "preserveAspect": false,
+            "clip": false,
+            "emphasis": {}
         }
     ],
     "legend": [
         {
             "data": [
-                "\u786e\u8bca\u4eba\u6570"
+                "\u5730\u56fe"
             ],
             "selected": {},
             "show": true,
@@ -193,105 +138,63 @@
         "padding": 5,
         "order": "seriesAsc"
     },
-    "xAxis": [
-        {
-            "show": true,
-            "scale": false,
-            "nameLocation": "end",
-            "nameGap": 15,
-            "nameTruncate": {},
-            "nameMoveOverlap": true,
-            "inverse": false,
-            "offset": 0,
-            "splitNumber": 5,
-            "minInterval": 0,
-            "silent": false,
-            "triggerEvent": false,
-            "splitLine": {
-                "show": true,
-                "lineStyle": {
-                    "show": false
-                }
-            },
-            "animation": true,
-            "animationThreshold": 2000,
-            "animationDuration": 1000,
-            "animationEasing": "cubicOut",
-            "animationDelay": 0,
-            "animationDurationUpdate": 300,
-            "animationEasingUpdate": "cubicOut",
-            "animationDelayUpdate": 0,
-            "data": [
-                "01.13",
-                "01.14",
-                "01.15",
-                "01.16",
-                "01.17",
-                "01.18",
-                "01.19",
-                "01.20",
-                "01.21",
-                "01.22",
-                "01.23",
-                "01.24",
-                "01.25",
-                "01.26",
-                "01.27",
-                "01.28",
-                "01.29",
-                "01.30",
-                "01.31",
-                "02.01",
-                "02.02"
-            ]
-        }
-    ],
-    "yAxis": [
-        {
-            "show": true,
-            "scale": false,
-            "nameLocation": "end",
-            "nameGap": 15,
-            "nameTruncate": {},
-            "nameMoveOverlap": true,
-            "inverse": false,
-            "offset": 0,
-            "splitNumber": 5,
-            "minInterval": 0,
-            "silent": false,
-            "triggerEvent": false,
-            "splitLine": {
-                "show": true,
-                "lineStyle": {
-                    "show": false
-                }
-            },
-            "animation": true,
-            "animationThreshold": 2000,
-            "animationDuration": 1000,
-            "animationEasing": "cubicOut",
-            "animationDelay": 0,
-            "animationDurationUpdate": 300,
-            "animationEasingUpdate": "cubicOut",
-            "animationDelayUpdate": 0
-        }
-    ],
     "title": [
         {
             "show": true,
-            "text": "\u4e2d\u56fd\u786e\u8bca\u4eba\u6570",
             "target": "blank",
             "subtarget": "blank",
-            "left": "center",
             "padding": 5,
             "itemGap": 10,
             "textAlign": "auto",
             "textVerticalAlign": "auto",
             "triggerEvent": false
         }
-    ]
+    ],
+    "visualMap": {
+        "show": true,
+        "type": "piecewise",
+        "min": 0,
+        "max": 100,
+        "inRange": {
+            "color": [
+                "#50a3ba",
+                "#eac763",
+                "#d94e5d"
+            ]
+        },
+        "calculable": true,
+        "inverse": false,
+        "splitNumber": 5,
+        "hoverLink": true,
+        "orient": "vertical",
+        "padding": 5,
+        "showLabel": true,
+        "itemWidth": 20,
+        "itemHeight": 14,
+        "borderWidth": 0,
+        "pieces": [
+            {
+                "min": 1,
+                "max": 9,
+                "label": "1-9",
+                "color": "#CCFFFF"
+            },
+            {
+                "min": 10,
+                "max": 99,
+                "label": "10-99",
+                "color": "#FF6666"
+            },
+            {
+                "min": 100,
+                "max": 599,
+                "label": "100-599",
+                "color": "#990033"
+            }
+        ]
+    }
 };
-        chart_4ddb38f5301e47779b4160a454a9e815.setOption(option_4ddb38f5301e47779b4160a454a9e815);
+        chart_f0dc148054bb40d1b849a3007b8813c4.setOption(option_f0dc148054bb40d1b849a3007b8813c4);
     </script>
 </body>
 </html>
