@@ -8,11 +8,11 @@
     
 </head>
 <body >
-    <div id="899b1795741e4c3fa4ee4ec63cc3a97f" class="chart-container" style="width:900px; height:500px; "></div>
+    <div id="4ddb38f5301e47779b4160a454a9e815" class="chart-container" style="width:900px; height:500px; "></div>
     <script>
-        var chart_899b1795741e4c3fa4ee4ec63cc3a97f = echarts.init(
-            document.getElementById('899b1795741e4c3fa4ee4ec63cc3a97f'), 'white', {renderer: 'canvas', locale: 'ZH'});
-        var option_899b1795741e4c3fa4ee4ec63cc3a97f = {
+        var chart_4ddb38f5301e47779b4160a454a9e815 = echarts.init(
+            document.getElementById('4ddb38f5301e47779b4160a454a9e815'), 'white', {renderer: 'canvas', locale: 'ZH'});
+        var option_4ddb38f5301e47779b4160a454a9e815 = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -27,7 +27,7 @@
     "series": [
         {
             "type": "line",
-            "name": "GDP",
+            "name": "\u786e\u8bca\u4eba\u6570",
             "connectNulls": false,
             "xAxisIndex": 0,
             "symbolSize": 4,
@@ -38,21 +38,93 @@
             "stackStrategy": "samesign",
             "data": [
                 [
-                    "\u4e2d\u56fd",
-                    30
+                    "01.13",
+                    "41"
                 ],
                 [
-                    "\u7f8e\u56fd",
-                    20
+                    "01.14",
+                    "41"
                 ],
                 [
-                    "\u82f1\u56fd",
-                    10
+                    "01.15",
+                    "41"
+                ],
+                [
+                    "01.16",
+                    "45"
+                ],
+                [
+                    "01.17",
+                    "62"
+                ],
+                [
+                    "01.18",
+                    "198"
+                ],
+                [
+                    "01.19",
+                    "275"
+                ],
+                [
+                    "01.20",
+                    "291"
+                ],
+                [
+                    "01.21",
+                    "440"
+                ],
+                [
+                    "01.22",
+                    "571"
+                ],
+                [
+                    "01.23",
+                    "830"
+                ],
+                [
+                    "01.24",
+                    "1287"
+                ],
+                [
+                    "01.25",
+                    "1975"
+                ],
+                [
+                    "01.26",
+                    "2744"
+                ],
+                [
+                    "01.27",
+                    "4515"
+                ],
+                [
+                    "01.28",
+                    "5974"
+                ],
+                [
+                    "01.29",
+                    "7711"
+                ],
+                [
+                    "01.30",
+                    "9692"
+                ],
+                [
+                    "01.31",
+                    "11791"
+                ],
+                [
+                    "02.01",
+                    "14380"
+                ],
+                [
+                    "02.02",
+                    "17205"
                 ]
             ],
             "hoverAnimation": true,
             "label": {
-                "show": true,
+                "show": false,
                 "margin": 8,
                 "richInheritPlainLabel": true,
                 "valueAnimation": false
@@ -72,7 +144,7 @@
     "legend": [
         {
             "data": [
-                "GDP"
+                "\u786e\u8bca\u4eba\u6570"
             ],
             "selected": {},
             "show": true,
@@ -150,9 +222,27 @@
             "animationEasingUpdate": "cubicOut",
             "animationDelayUpdate": 0,
             "data": [
-                "\u4e2d\u56fd",
-                "\u7f8e\u56fd",
-                "\u82f1\u56fd"
+                "01.13",
+                "01.14",
+                "01.15",
+                "01.16",
+                "01.17",
+                "01.18",
+                "01.19",
+                "01.20",
+                "01.21",
+                "01.22",
+                "01.23",
+                "01.24",
+                "01.25",
+                "01.26",
+                "01.27",
+                "01.28",
+                "01.29",
+                "01.30",
+                "01.31",
+                "02.01",
+                "02.02"
             ]
         }
     ],
@@ -189,89 +279,19 @@
     "title": [
         {
             "show": true,
-            "text": "GDP\u5c55\u793a",
+            "text": "\u4e2d\u56fd\u786e\u8bca\u4eba\u6570",
             "target": "blank",
             "subtarget": "blank",
             "left": "center",
-            "bottom": "20%",
             "padding": 5,
             "itemGap": 10,
             "textAlign": "auto",
             "textVerticalAlign": "auto",
             "triggerEvent": false
         }
-    ],
-    "toolbox": {
-        "show": true,
-        "orient": "horizontal",
-        "itemSize": 15,
-        "itemGap": 10,
-        "left": "80%",
-        "feature": {
-            "saveAsImage": {
-                "type": "png",
-                "backgroundColor": "auto",
-                "connectedBackgroundColor": "#fff",
-                "show": true,
-                "pixelRatio": 1
-            },
-            "restore": {
-                "show": true
-            },
-            "dataView": {
-                "show": true,
-                "readOnly": false,
-                "backgroundColor": "#fff",
-                "textareaColor": "#fff",
-                "textareaBorderColor": "#333",
-                "textColor": "#000",
-                "buttonColor": "#c23531",
-                "buttonTextColor": "#fff"
-            },
-            "dataZoom": {
-                "show": true,
-                "title": {},
-                "icon": {},
-                "filterMode": "filter"
-            },
-            "magicType": {
-                "show": true,
-                "type": [
-                    "line",
-                    "bar",
-                    "stack",
-                    "tiled"
-                ],
-                "title": {},
-                "icon": {}
-            }
-        }
-    },
-    "visualMap": {
-        "show": true,
-        "type": "continuous",
-        "min": 0,
-        "max": 100,
-        "inRange": {
-            "color": [
-                "#50a3ba",
-                "#eac763",
-                "#d94e5d"
-            ]
-        },
-        "calculable": true,
-        "inverse": false,
-        "splitNumber": 5,
-        "hoverLink": true,
-        "orient": "vertical",
-        "padding": 5,
-        "showLabel": true,
-        "itemWidth": 20,
-        "itemHeight": 140,
-        "borderWidth": 0
-    }
+    ]
 };
-        chart_899b1795741e4c3fa4ee4ec63cc3a97f.setOption(option_899b1795741e4c3fa4ee4ec63cc3a97f);
+        chart_4ddb38f5301e47779b4160a454a9e815.setOption(option_4ddb38f5301e47779b4160a454a9e815);
     </script>
 </body>
 </html>
