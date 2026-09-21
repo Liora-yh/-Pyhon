@@ -18,4 +18,4 @@ line.set_global_opts(
 )
 
 # 通过render方法，将代码生成图像
-line.render()
+line.render("折线图.html")
