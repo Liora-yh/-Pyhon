@@ -45,7 +45,7 @@ line.add_yaxis("确诊人数", y_data, label_opts=LabelOpts(is_show=False))
 line.set_global_opts(
     title_opts=TitleOpts(title="中国确诊人数", pos_left="center")
 )
-line.render()
+line.render("疫情病例案例.html")
 f.close()
 
 
