@@ -26,4 +26,4 @@ map.set_global_opts(
         ]
     )
 )
-map.render()
+map.render("数据可视化-地图.html")
