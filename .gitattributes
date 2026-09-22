@@ -1,0 +1,6 @@
+# 忽略.idea目录所有文件，不参与语言统计
+.idea/** linguist-vendored
+# 所有xml文件不参与语言统计
+*.xml linguist-vendored
+# data文件夹数据文件不参与统计
+data/** linguist-vendored
