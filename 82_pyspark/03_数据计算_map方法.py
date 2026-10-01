@@ -19,7 +19,7 @@ rdd2 = rdd.map(func)
 print(rdd2.collect())
 
 # 链式调用
-rdd3 = rdd.map(lambda data: data * 10)
+rdd3 = rdd.map(lambda data: data * 10).map(lambda data: data + 5)
 print(rdd3.collect())
 
 
