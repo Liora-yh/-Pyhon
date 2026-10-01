@@ -19,3 +19,6 @@ print(take_list)
 
 num_count = rdd.count()
 print(num_count)
+
+rdd.saveAsTextFile("output/rdd_output.txt")
+# 输出到文件中
